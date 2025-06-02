@@ -17,7 +17,7 @@ In deze opdracht ga je oefenen met wat je tot nu geleerd hebt over beslissingsst
 
 ## Opdrachtbeschrijving
 
-Maak in het nieuwe Java project dat je hebt gemaakt een main klasse en een `public static void main` methode. 
+Maak in het nieuwe Java project dat je hebt gemaakt een Main klasse en een `public static void Main` methode. 
 
 We gaan het volgende appeltaart recept uit laten printen door de applicatie:
 
@@ -46,7 +46,7 @@ Stappen:
 - Leg de stroken kruislings op de appeltaart. Met wat extra deegstroken werk je de rand rondom af. Gebruik het overgebleven ei om de bovenkant van het deeg te bestrijken
 - Zet de taart iets onder het midden van de oven. Bak de taart in 60 minuten op 170 graden Celsius (boven en onderwarmte) gaar en goudbruin.
 
-Nou kunnen we dit alles natuurlijk in de main met een System.out.println zetten en dan werkt het. Maar dat is niet wat we gaan doen. We gaan de applicatie netjes opbouwen met de kennis die je tot zo ver hebt opgedaan. 
+Nou kunnen we dit alles natuurlijk in de Main met een System.out.println zetten en dan werkt het. Maar dat is niet wat we gaan doen. We gaan de applicatie netjes opbouwen met de kennis die je tot zo ver hebt opgedaan. 
 
 ![Appeltaart](./assets/appeltaart.jpg)
 
@@ -68,7 +68,7 @@ Let op: het is uitdagender om jouw eigen stappenplan te maken. Als je niet zo go
 
 2. Maak een nieuwe klasse aan genaamd  'Main'. Doe dit door met de rechter muisknop op de map 'SRC' te klikken, vervolgens klik je op 'New' en dan op 'Java class'. 
 
-3. Maak een `public static void main` methode aan.
+3. Maak een `public static void Main` methode aan.
 
 4. Maak een nieuwe klasse `Ingredient` aan, dit gaat het framework worden van een ingredient object
 
@@ -84,7 +84,7 @@ Let op: het is uitdagender om jouw eigen stappenplan te maken. Als je niet zo go
 
 10. Maar hoe kunnen we nu deze aanspreken van uit de `Main` klasse? Ja, precies door een object aan te maken van het type `ApplePieRecipe`
 
-11. Roep hiermee van uit de `Main` klasse alle methodes aan  `ApplePieRecipe`, zodat als we de `public static void main` methode laten draaien we alle stappen geprint zien worden.
+11. Roep hiermee van uit de `Main` klasse alle methodes aan  `ApplePieRecipe`, zodat als we de `public static void Main` methode laten draaien we alle stappen geprint zien worden.
 
 12. De oplettende student heeft gezien dat we helemaal niets doen met de objecten van `Ingredient`. En dat terwijl we daar zo veel moeite in hebben gestopt. Maar iemand die deze app draait zou ook wel willen weten welke ingredienten nodig zijn voor de recept. Maak daarom een `public void` methode genaamd printIngredients aan in `ApplePieRecipe`. Laat deze methode voor ieder ingredient een `System.out.println(ingredient.getAmount() + " " + ingredient.getUnit() + " " + ingredient.getName())` uitprinten. (Vervang natuurlijk ingredient met de naam van het ingredient dat je het gegeven bij het instantieren.)
 
