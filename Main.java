@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Ingrediënten:");
         ApplePieRecipe printIngredients = new ApplePieRecipe();
         printIngredients.printIngredients();
 
+        System.out.println(" ");
         System.out.println("Stappen:");
 
         ApplePieRecipe step1 = new ApplePieRecipe();
@@ -27,8 +27,19 @@ public class Main {
         step9.bake();
 
 //        Of
+        System.out.println(" ");
         ApplePieRecipe printSteps = new ApplePieRecipe();
         printSteps.printSteps();
+
+//        Boterkoekrecept
+
+        System.out.println(" ");
+        BoterkoekRecipe printIngredientsBoterkoek = new BoterkoekRecipe();
+        printIngredientsBoterkoek.printIngredientsBoterkoek();
+
+        System.out.println(" ");
+        BoterkoekRecipe printStepsBoterkoek = new BoterkoekRecipe();
+        printStepsBoterkoek.printStepsBoterkoek();
 
     }
 }

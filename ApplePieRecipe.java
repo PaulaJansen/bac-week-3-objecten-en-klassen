@@ -16,6 +16,7 @@ public class ApplePieRecipe {
 
 
     public void printIngredients() {
+        System.out.println("Ingrediënten:");
         System.out.println(ingredient1.getAmount() + " " + ingredient1.getUnit() + " " + ingredient1.getName());
         System.out.println(ingredient2.getAmount() + " " + ingredient2.getUnit() + " " + ingredient2.getName());
         System.out.println(ingredient3.getAmount() + " " + ingredient3.getUnit() + " " + ingredient3.getName());
