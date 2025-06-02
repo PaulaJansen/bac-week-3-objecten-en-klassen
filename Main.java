@@ -26,8 +26,9 @@ public class Main {
         ApplePieRecipe step9 = new ApplePieRecipe();
         step9.bake();
 
-//        ApplePieRecipe allSteps = new ApplePieRecipe();
-//        allSteps.printSteps();
+//        Of
+        ApplePieRecipe printSteps = new ApplePieRecipe();
+        printSteps.printSteps();
 
     }
 }
